@@ -14,6 +14,16 @@ This is the code that is used to train the anomaly detector that is used in HEAL
 This is the code utilized for the training via the proposed HEAL framework.
 
 ## Hoeffding.py 
-This code is used to train the base model for each base model
+This code is used to train the base model for each base model along with the combined domain retrain model
+
+## Evaluate_Hoeff.py
+This is the code used to evaluate the performance of the all the trained models
+
+## 📂 Dataset Generation
+| File | Description |
+|------|--------------|
+| `2023_Gen.py` | Generates the CICIoT2023 dataset |
+| `2024_Gen.py` | Generates the CICIoMT2024 datasets |
+| `Combined Domain Retrain.py` | Generates dataset for combined domain retrian |
 
 
